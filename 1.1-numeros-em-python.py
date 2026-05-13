@@ -50,8 +50,8 @@ print("---------------------------------")
 # numero = a + bj
 
 # a = parte real
-# b = parte imaginaria
-# c = unidade imaginaria
+# b = parte imaginária
+# c = unidade imaginária
 numero_complexo = 2 + 3j
 
 # mostramos o valor
@@ -60,3 +60,15 @@ print("Valor:", numero_complexo)
 print ("Tipo:", type(numero_complexo))
 
 print("---------------------------------")
+
+# EXEMPLO 3 - ACESSANDO CADA PARTE DO NÚMERO
+
+# .real retorna a parte real
+print ("Parte Real:", numero_complexo.real)
+
+# .imag retorna a parte imaginária
+print ("Parte Imaginária:", numero_complexo.imag)
+
+#================================================
+## PASSO 02 - CONVERSÃO TIPOS
+#================================================
