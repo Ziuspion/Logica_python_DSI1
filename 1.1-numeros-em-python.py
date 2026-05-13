@@ -68,7 +68,10 @@ print ("Parte Real:", numero_complexo.real)
 
 # .imag retorna a parte imaginária
 print ("Parte Imaginária:", numero_complexo.imag)
+# apenas para separar visualmente a saida no terminal
+print("\n")
 
 #================================================
 ## PASSO 02 - CONVERSÃO TIPOS
 #================================================
+#
